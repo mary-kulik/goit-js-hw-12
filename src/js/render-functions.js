@@ -4,7 +4,7 @@
 const gallery = document.querySelector('.gallery');
 // console.log('gallery :>> ', gallery);
 export function renderGallery(images) {
-  gallery.innerHTML = images
+  const markup = images
     .map(
       image => `
         <li class = item>
@@ -23,4 +23,5 @@ export function renderGallery(images) {
       `
     )
     .join('');
+  gallery.insertAdjacentHTML('beforeend', markup);
 }

@@ -220,3 +220,24 @@
     background-size: 80px 80px;
   }
 }
+
+.load-more-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  background: #4e75ff;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.load-more-btn:hover {
+  background: #6c8cff;
+}
